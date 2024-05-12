@@ -65,3 +65,15 @@ body{
     right: 2%;
     transform: translateY(-50%);
 }
+
+@media (max-width: 679px) {
+    .container{
+        width: 70vw;
+    }
+}
+@media (max-width: 470px) {
+    .container{
+        width: 90vw;
+        height: 60vh;
+    }
+}
